@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ACF40BA242AEA470039E38B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF40B9242AEA470039E38B /* AppDelegate.swift */; };
+		5ACF40BC242AEA470039E38B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF40BB242AEA470039E38B /* SceneDelegate.swift */; };
+		5ACF40BE242AEA470039E38B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF40BD242AEA470039E38B /* ViewController.swift */; };
+		5ACF40C1242AEA470039E38B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACF40BF242AEA470039E38B /* Main.storyboard */; };
+		5ACF40C3242AEA490039E38B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACF40C2242AEA490039E38B /* Assets.xcassets */; };
+		5ACF40C6242AEA490039E38B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACF40C4242AEA490039E38B /* LaunchScreen.storyboard */; };
+		5ACF40D5242AEB140039E38B /* Mob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF40D4242AEB130039E38B /* Mob.swift */; };
+		5ACF40D7242AEBD40039E38B /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF40D6242AEBD40039E38B /* Inventory.swift */; };
+		5ACF40DC242AECA80039E38B /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF40DB242AECA80039E38B /* Monster.swift */; };
+		5ACF40DE242AECC50039E38B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF40DD242AECC50039E38B /* Player.swift */; };
+		5ACF40E0242AECF10039E38B /* MobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF40DF242AECF10039E38B /* MobController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5ACF40B6242AEA470039E38B /* iMonster_iOS16AH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMonster_iOS16AH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACF40B9242AEA470039E38B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5ACF40BB242AEA470039E38B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5ACF40BD242AEA470039E38B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ACF40C0242AEA470039E38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ACF40C2242AEA490039E38B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ACF40C5242AEA490039E38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ACF40C7242AEA490039E38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACF40D4242AEB130039E38B /* Mob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mob.swift; sourceTree = "<group>"; };
+		5ACF40D6242AEBD40039E38B /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		5ACF40DB242AECA80039E38B /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		5ACF40DD242AECC50039E38B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5ACF40DF242AECF10039E38B /* MobController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ACF40B3242AEA470039E38B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ACF40AD242AEA470039E38B = {
+			isa = PBXGroup;
+			children = (
+				5ACF40B8242AEA470039E38B /* iMonster_iOS16AH */,
+				5ACF40B7242AEA470039E38B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ACF40B7242AEA470039E38B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ACF40B6242AEA470039E38B /* iMonster_iOS16AH.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ACF40B8242AEA470039E38B /* iMonster_iOS16AH */ = {
+			isa = PBXGroup;
+			children = (
+				5ACF40D1242AEAAF0039E38B /* Model */,
+				5ACF40D2242AEACB0039E38B /* View */,
+				5ACF40D0242AEA930039E38B /* Controller */,
+				5ACF40CD242AEA580039E38B /* Resources */,
+				5ACF40C7242AEA490039E38B /* Info.plist */,
+			);
+			path = iMonster_iOS16AH;
+			sourceTree = "<group>";
+		};
+		5ACF40CD242AEA580039E38B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5ACF40B9242AEA470039E38B /* AppDelegate.swift */,
+				5ACF40C2242AEA490039E38B /* Assets.xcassets */,
+				5ACF40BB242AEA470039E38B /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5ACF40CE242AEA700039E38B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5ACF40BD242AEA470039E38B /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5ACF40CF242AEA7E0039E38B /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5ACF40DF242AECF10039E38B /* MobController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		5ACF40D0242AEA930039E38B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5ACF40CF242AEA7E0039E38B /* ModelControllers */,
+				5ACF40CE242AEA700039E38B /* ViewControllers */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5ACF40D1242AEAAF0039E38B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ACF40D4242AEB130039E38B /* Mob.swift */,
+				5ACF40DA242AEC720039E38B /* Custom Mobs */,
+				5ACF40D6242AEBD40039E38B /* Inventory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5ACF40D2242AEACB0039E38B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5ACF40BF242AEA470039E38B /* Main.storyboard */,
+				5ACF40C4242AEA490039E38B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5ACF40DA242AEC720039E38B /* Custom Mobs */ = {
+			isa = PBXGroup;
+			children = (
+				5ACF40DB242AECA80039E38B /* Monster.swift */,
+				5ACF40DD242AECC50039E38B /* Player.swift */,
+			);
+			path = "Custom Mobs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ACF40B5242AEA470039E38B /* iMonster_iOS16AH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACF40CA242AEA490039E38B /* Build configuration list for PBXNativeTarget "iMonster_iOS16AH" */;
+			buildPhases = (
+				5ACF40B2242AEA470039E38B /* Sources */,
+				5ACF40B3242AEA470039E38B /* Frameworks */,
+				5ACF40B4242AEA470039E38B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMonster_iOS16AH;
+			productName = iMonster_iOS16AH;
+			productReference = 5ACF40B6242AEA470039E38B /* iMonster_iOS16AH.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ACF40AE242AEA470039E38B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Stephanie Ballard";
+				TargetAttributes = {
+					5ACF40B5242AEA470039E38B = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 5ACF40B1242AEA470039E38B /* Build configuration list for PBXProject "iMonster_iOS16AH" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ACF40AD242AEA470039E38B;
+			productRefGroup = 5ACF40B7242AEA470039E38B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ACF40B5242AEA470039E38B /* iMonster_iOS16AH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ACF40B4242AEA470039E38B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACF40C6242AEA490039E38B /* LaunchScreen.storyboard in Resources */,
+				5ACF40C3242AEA490039E38B /* Assets.xcassets in Resources */,
+				5ACF40C1242AEA470039E38B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ACF40B2242AEA470039E38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACF40E0242AECF10039E38B /* MobController.swift in Sources */,
+				5ACF40BE242AEA470039E38B /* ViewController.swift in Sources */,
+				5ACF40BA242AEA470039E38B /* AppDelegate.swift in Sources */,
+				5ACF40D7242AEBD40039E38B /* Inventory.swift in Sources */,
+				5ACF40D5242AEB140039E38B /* Mob.swift in Sources */,
+				5ACF40DE242AECC50039E38B /* Player.swift in Sources */,
+				5ACF40DC242AECA80039E38B /* Monster.swift in Sources */,
+				5ACF40BC242AEA470039E38B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5ACF40BF242AEA470039E38B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACF40C0242AEA470039E38B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ACF40C4242AEA490039E38B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACF40C5242AEA490039E38B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ACF40C8242AEA490039E38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ACF40C9242AEA490039E38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ACF40CB242AEA490039E38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMonster_iOS16AH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StephanieBallard.iMonster-iOS16AH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ACF40CC242AEA490039E38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMonster_iOS16AH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StephanieBallard.iMonster-iOS16AH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ACF40B1242AEA470039E38B /* Build configuration list for PBXProject "iMonster_iOS16AH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACF40C8242AEA490039E38B /* Debug */,
+				5ACF40C9242AEA490039E38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACF40CA242AEA490039E38B /* Build configuration list for PBXNativeTarget "iMonster_iOS16AH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACF40CB242AEA490039E38B /* Debug */,
+				5ACF40CC242AEA490039E38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ACF40AE242AEA470039E38B /* Project object */;
+}
